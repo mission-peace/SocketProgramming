@@ -8,9 +8,6 @@ import io.netty.handler.codec.MessageToMessageEncoder;
 import java.nio.ByteBuffer;
 import java.util.List;
 
-/**
- * Created by tushar_v_roy on 9/18/15.
- */
 public class LengthBasedFrameEncoder extends MessageToMessageEncoder<ByteBuf> {
 
     @Override
